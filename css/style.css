@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* Шапка сайта */
+.logo {
+    cursor: pointer;
+}
+
+.promo {
+    background-color: #e4e4e46c;
+    backdrop-filter: blur(5px);
+    height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 90px;
+}
+
+nav {
+    display: flex;
+    gap: 41px;
+}
+
+nav a {
+    color: black;
+    font-family: SF Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    gap: 41px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.08);
+}
+
+.icon:active {
+    transform: scale(1);
+}
+
+/* Promo two */
+.promo_two {
+    margin-top: 45px;
+    background-color: #f4f4f482;
+}
+
+.unicef {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 320px;
+}
+
+.uni_a a {
+    color: #06C;
+    font-family: SF Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+/* Iphone_pro */
+.Iphone_pro {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.iphone_text h1 {
+    padding-bottom: 10px;
+    color: #1D1D1F;
+    font-family: SF Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.iphone_link a {
+    padding: 0 15px;
+    color: #06C;
+    font-family: SF Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.iphone {
+    padding-top: 25px;
+}
+
+.iphone_text p {
+    color: #000;
+    font-family: SF Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+
+/* Iphone SE */
+.Iphone_SE {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.new_se p {
+    color: #161618;
+    font-family: SF Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 44px;
+}
+
+.text_se {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 500px;
+}
+
+.h1_se h1 {
+    color: #161618;
+    font-family: SF Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 44px;
+}
+
+.se_icon {
+    cursor: pointer;
+}
+
+.price_se p {
+    color: #000;
+    font-family: SF Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.link_se a {
+    color: #06C;
+    font-family: SF Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 44px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.se_pic {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+
+/* IPAD */
+.Ipad {
+    background-color: #000;
+    height: 600px;
+}
+
+.ipad_box {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+}
+
+.ipad_text {
+    padding-left: 240px;
+    padding-top: 250px;
+}
+
+.ipad_text h1 {
+    padding-bottom: 10px;
+    color: #FFF;
+    font-family: SF Pro;
+    font-size: 50px;
+    line-height: 44px;
+}
+
+.ipad_text h1 span {
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    color: blueviolet;
+}
+
+.ipad_text p {
+    padding-bottom: 5px;
+    color: #FFF;
+    font-family: SF Pro;
+    font-size: 25px;
+}
+
+.ipad_text a {
+    color: #06C;
+    font-family: SF Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 44px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.ipad_img {
+    width: 500px;
+    padding-top: 60px;
+}
+
+/* Grid */
+.wrap {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    grid-auto-rows: 600px;
+}
+
+.elem {
+    background-color: #FAFAFD;
+    /* border: 1px solid black; */
+    color: black;
+    text-align: center;
+}
+
+.elem h1 {
+    padding-top: 48px;
+    padding-bottom: 8px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 590;
+    line-height: 44px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.elem p {
+    color: #000;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Aleo', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.elem a {
+    padding: 0 8px;
+    color: #06C;
+    font-family: SF Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    text-decoration: none;
+}
+
+.elem h2 {
+    color: #C80000;
+    font-family: SF Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 44px;
+}
+
+.elem_img {
+    padding-top: 27px;
+}
