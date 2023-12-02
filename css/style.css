@@ -263,7 +263,6 @@ nav a {
 
 .elem {
     background-color: #FAFAFD;
-    /* border: 1px solid black; */
     color: black;
     text-align: center;
 }
@@ -310,4 +309,33 @@ nav a {
 
 .elem_img {
     padding-top: 27px;
+}
+
+
+.back h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+    padding-bottom: 11px;
+}
+
+.back a {
+    color: #FFF;
+    text-align: center;
+    font-family: SF Pro;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.085px;
+}
+
+.back {
+    background-image: url(../img/Gradient\ background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 120px;
 }
