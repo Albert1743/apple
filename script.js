@@ -17,3 +17,24 @@ btns.forEach(btn => {
 
 
 
+let open_btn = document.querySelector('[data-open]')
+let close_btn = document.querySelector('[data-close]')
+let dialog = document.querySelector('dialog')
+
+
+open_btn.onclick = () => {
+    dialog.showModal()
+}
+close_btn.onclick = () => {
+    dialog.close()
+}
+
+
+
+const items = document.querySelectorAll('.item')
+
+items.forEach(item => {
+    item.onclick = () => {
+        item.classList.toggle('active')
+    }
+})
